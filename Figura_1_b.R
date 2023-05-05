@@ -43,10 +43,10 @@
   }
   p %>%
   layout(plot_bgcolor = 'rgb(240, 240, 240)',
-         title = list(text = "\n \n \n <b>Distribuição Poisson</b>", font = list(size = 18, color = 'black')),
+         title = list(text = "\n \n \n <b>Distribuicao Poisson</b>", font = list(size = 18, color = 'black')),
          legend = list(x = 10,
                        y = 0.88,
-                       font = list(size = 18, color = 'black')    # NOTA: NESTE EXEMPLO A LEGENDA ESTÁ  SENDO 
+                       font = list(size = 18, color = 'black')    # NOTA: NESTE EXEMPLO A LEGENDA ESTA  SENDO 
                        ),                                         #       ALOCADA  MANUALMENTE  POR  MEIO DOS
          annotations = list(xref = 'paper',                       #       ARGUMENTOS 'legend' E 'annotations'
                             x = 1,
