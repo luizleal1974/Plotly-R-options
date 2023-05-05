@@ -2,6 +2,11 @@
 
 <p align="justify">Para reproduizr a Figura 1 copie o código abaixo e cole no prompt de comando da linguagem de programação R.</p>
 
+<p align="justify"><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Figura_1_a.R'>`Figura_1_a.R`</a>: Customização de mouseover e fonte.</p>
+<p align="justify"><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Figura_1_b.R'>`Figura_1_b.R`</a>: Inserção de imagem e equações LaTex.</p>
+<p align="justify"><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Figura_1_c.R'>`Figura_1_c.R`</a>: Customização de fonte no ggplot.</p>
+
+
 ```{r}
 # Figura 1
 path1 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Figura_1_a.R"
