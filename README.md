@@ -13,4 +13,5 @@ p1 ; p2 ; p3
 
 <p align="center">
 <img src="Figura_1.gif" alt="Drawing"/>
+(a)         (b)      (c)
 </p>
