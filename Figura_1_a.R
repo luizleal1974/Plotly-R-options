@@ -107,7 +107,7 @@
             marker = list(color = '#5EA191', line = list(color = '#386057', width = 1.6))
             ) %>%
   layout(plot_bgcolor = 'rgb(230, 230, 230)',
-         title = list(text = "</br> </br> <b>Mamíferos</b> </br> <b>(Zoologicos EUA)</b>", font = list(family = "Calibri", size = 26, color = 'black')), # DEFINE O TAMANHO E A COR DO TITULO DO GRAFICO
+         title = list(text = "</br> </br> <b>Mamiferos</b> </br> <b>(Zoologicos EUA)</b>", font = list(family = "Calibri", size = 26, color = 'black')), # DEFINE O TAMANHO E A COR DO TITULO DO GRAFICO
          legend = list(title = list(text = '<b>Zoologico</b>', font = list(family = "Calibri", size = 26, color = 'black')),                             # DEFINE O TAMANHO E A COR DO TITULO DA LEGENDA
                        font = list(family = "Calibri", size = 24, color = 'black')                                                                       # DEFINE O TAMANHO E A COR DOS ELEMENTOS DA LEGENDA
                        ),
