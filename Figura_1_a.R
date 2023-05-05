@@ -17,7 +17,7 @@
 #########
 
 # Animais
-  Animals <- c("<b>Giraffes</b>",    # NOTA: NESTE EXEMPLO … NECESS¡RIO ESTABELECER OS RECURSOS HTML NESTA ETAPA
+  Animals <- c("<b>Giraffes</b>",    # NOTA: NESTE EXEMPLO √â NECESS√ÅRIO ESTABELECER OS RECURSOS HTML NESTA ETAPA
                "<b>Orangutans</b>",
                "<b>Black-and-white</b> </br> </br> <b>snub-nosed</b> </br> <b>monkeys</b>"
                )
@@ -41,13 +41,13 @@
                       )
 
 # Texto para mouseover
-  dados$SF_freq = paste("<b>InformaÁıes</b>\n",
+  dados$SF_freq = paste("<b>Informa√ß√µes</b>\n",
                         paste("Zoologico: " , "San Francisco", sep = ""), 
                         paste("Frequencia: ", dados$SF       , sep = ""),
                         paste("Pencentual: ", dados$SFr      , sep = ""),
                         sep = "\n"
                         )
-  dados$LA_freq = paste("<b>InformaÁıes</b>\n",
+  dados$LA_freq = paste("<b>Informa√ß√µes</b>\n",
                         paste("Zoologico: " , "Los Angeles"  , sep = ""),
                         paste("Frequencia: ", dados$LA       , sep = ""),
                         paste("Pencentual: ", dados$LAr      , sep = ""),
@@ -96,16 +96,18 @@
           type = 'bar',
           name = '<b>San Francisco</b>',
           width = 1280,
-          height = 860
+          height = 860,
+          marker = list(color = 'steelblue', line = list(color = 'rgb(8,48,107)', width = 1.6))
           ) %>%
   add_trace(y = ~LAp,
             text = ~LAr,
             hoverinfo = "text",
             hovertext = ~LA_freq,
-            name = '<b>Los Angeles</b>'
+            name = '<b>Los Angeles</b>',
+            marker = list(color = '#5EA191', line = list(color = '#386057', width = 1.6))
             ) %>%
   layout(plot_bgcolor = 'rgb(230, 230, 230)',
-         title = list(text = "</br> </br> <b>MamÌferos</b> </br> <b>(Zoologicos EUA)</b>", font = list(family = "Calibri", size = 26, color = 'black')), # DEFINE O TAMANHO E A COR DO TITULO DO GRAFICO
+         title = list(text = "</br> </br> <b>Mam√≠feros</b> </br> <b>(Zoologicos EUA)</b>", font = list(family = "Calibri", size = 26, color = 'black')), # DEFINE O TAMANHO E A COR DO TITULO DO GRAFICO
          legend = list(title = list(text = '<b>Zoologico</b>', font = list(family = "Calibri", size = 26, color = 'black')),                             # DEFINE O TAMANHO E A COR DO TITULO DA LEGENDA
                        font = list(family = "Calibri", size = 24, color = 'black')                                                                       # DEFINE O TAMANHO E A COR DOS ELEMENTOS DA LEGENDA
                        ),
