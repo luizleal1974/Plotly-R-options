@@ -1,6 +1,6 @@
 # Customização de gráficos HTML
 
-Para reproduizr a Figura 1 copie o código abaixo e cole no prompt de comando da linguagem de programação R.
+<p align="justify">Para reproduizr a Figura 1 copie o código abaixo e cole no prompt de comando da linguagem de programação R.</p>
 
 ```{r}
 # Figura 1
@@ -10,3 +10,7 @@ path3 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Figura_1_c.R"
 p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p3 = devtools::source_url(path3)
 p1 ; p2 ; p3
 ```
+
+<p align="center">
+<img src="Figura_1.gif" alt="Drawing"/>
+</p>
