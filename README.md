@@ -1,6 +1,6 @@
 # Customização de gráficos HTML
 
-<p align="justify">Os códigos de programação em linguagem de programação R disponíveis neste repositório fornecem as seguintes customizações para gráficos HTML:</p>
+<p align="justify">Os códigos em linguagem de programação R disponíveis neste repositório fornecem as seguintes customizações para gráficos HTML:</p>
 
 <p align="justify">
 <li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Figura_1_a.R'><code>Figura_1_a.R</code></a>: Customização de mouseover e fonte.</li>
