@@ -24,6 +24,8 @@ p1 ; p2 ; p3
 Figura 1. Gráficos HTML.
 </p>
 
+</br>
+
 # 2. Função definida pelo programador
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
