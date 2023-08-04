@@ -1,4 +1,4 @@
-# Customização de gráficos HTML
+# 1. Customização de gráficos HTML
 
 <p align="justify">Os códigos em linguagem de programação R disponíveis neste repositório fornecem as seguintes customizações para gráficos HTML:</p>
 
@@ -24,3 +24,23 @@ p1 ; p2 ; p3
 Figura 1. Gráficos HTML.
 </p>
 
+# 2. Função definida pelo programador
+
+<p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
+
+```{r}
+# Function
+f = function(x, tab = TRUE, plt = FALSE){
+result = data.frame(prop.table(table(x)))
+library(plotly) ; p = plot_ly(x = x, type = "histogram", marker = list(color = "#69b3a2", line = list(color = "black", width = 2))) 
+if(tab == TRUE){return(result)}
+if(plt == TRUE){print(p)}
+}
+
+# Data set
+values = c(0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 7, 8, 9)
+
+# Output
+f(x = values, tab = TRUE, plt = FALSE)
+f(x = values, tab = FALSE, plt = TRUE)
+```
