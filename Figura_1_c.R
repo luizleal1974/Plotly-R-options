@@ -71,4 +71,3 @@
             legend.key.size = unit(5, 'cm')
             )
   ggplotly(p) %>% layout(margin = list(b = 150, t = 150, l = 450, r = 450), hoverlabel = list(font = list(family = "Calibri", size = 30, color = 'white')))
-
