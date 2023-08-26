@@ -26,7 +26,6 @@ Figura 1. Gráficos HTML.
 
 </br>
 
-
 # 2. Customizar marcadores e linhas
 
 <p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas. Para reproduizr a Figura 2 utilize o código abaixo.</p>
@@ -49,7 +48,7 @@ margens = list(autoexpand = FALSE, b = 200, t = 200, r = 500, l = 500)
 # Grafico (Figura 2)
 titulo_grafico = "</br> </br> </br> </br> </br> Grafico"
 plot_ly() %>%
-add_trace(x = x1, y = y1, type = 'scatter', mode = 'markers'        , marker = list(color = '#5EA191' ,    size = 19 )                                              ) %>%
+add_trace(x = x1, y = y1, type = 'scatter', mode = 'markers'        , marker = list(color = '#5EA191'   ,  size = 19 )                                              ) %>%
 add_trace(x = x2, y = y2, type = 'scatter', mode = 'lines'          ,   line = list(color = 'steelblue' , width = 10 )                                              ) %>%
 add_trace(x = x3, y = y3, type = 'scatter', mode = 'lines+markers'  ,   line = list(color = '#d8ae2d'   , width = 8  ), marker = list(color = '#000000', size = 14) ) %>%
 layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, yaxis = ay, margin = margens, showlegend = FALSE)
@@ -62,7 +61,6 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 <div align="center">Figura 2. Marcadores e linhas.</div>
 
 </br>
-
 
 # 3. Função definida pelo programador
 
