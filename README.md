@@ -26,6 +26,7 @@ Figura 1. Gráficos HTML.
 
 </br>
 
+
 # 2. Customizar marcadores e linhas
 
 <p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas. Para reproduizr a Figura 2 utilize o código abaixo.</p>
@@ -61,6 +62,7 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 <div align="center">Figura 2. Marcadores e linhas.</div>
 
 </br>
+
 
 # 3. Função definida pelo programador
 
