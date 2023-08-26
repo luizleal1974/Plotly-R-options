@@ -55,7 +55,7 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 ```
 
 <p align="center">
-<img src="Figura_2.png" width="150" height="150"/>
+<img src="Figura_2.png" width="250" height="250"/>
 </p>
 
 <div align="center">Figura 2. Marcadores e linhas.</div>
