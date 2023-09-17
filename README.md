@@ -82,3 +82,27 @@ values = c(0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 7, 8, 9)
 f(x = values, tab = TRUE, plt = FALSE)
 f(x = values, tab = FALSE, plt = TRUE)
 ```
+
+<p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar o código abaixo.</p>
+
+```{r}
+# Function
+f = function(x, tab = TRUE){
+result = data.frame(prop.table(table(x)))
+if(tab == TRUE){return(result)}
+library(plotly) ; p = plot_ly(x = x, type = "histogram", marker = list(color = "#69b3a2", line = list(color = "black", width = 2))) # THIS LINE MUST BE THE LAST.
+}
+
+# Data set
+values = c(0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 7, 8, 9)
+
+# Output
+f(x = values, tab = TRUE)  # PLOT WILL NOT BE SHOWN IN SHINY APP.
+f(x = values, tab = FALSE) # PLOT WILL BE SHOWN IN SHINY APP.
+```
+
+
+
+
+
+
