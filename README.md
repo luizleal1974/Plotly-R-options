@@ -65,9 +65,10 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 # 3. Função definida pelo programador
 
 <p></p>
+
 <p></p>
 
-<font style="font-size:100px;">3.1 R console</font>
+### 3.1 R console
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
 
@@ -90,7 +91,10 @@ f(x = values, tab = FALSE, plt = TRUE)
 
 <p></p>
 
-## 3.2 Shiny
+<p></p>
+
+
+### 3.2 Shiny
 
 <p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar a estrutura contida no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/app.R'><code>app.R</code></a>.</p>
 
