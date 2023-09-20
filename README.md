@@ -64,6 +64,10 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 
 # 3. Função definida pelo programador
 
+<p></p>
+
+### 3.1 R console
+
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
 
 ```{r}
@@ -83,22 +87,19 @@ f(x = values, tab = TRUE, plt = FALSE)
 f(x = values, tab = FALSE, plt = TRUE)
 ```
 
-<p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar o código abaixo.</p>
+<p></p>
+
+### 3.2 Shiny
+
+<p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar a estrutura contida no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/app.R'><code>app.R</code></a>.</p>
 
 ```{r}
-# Function
-f = function(x, tab = TRUE){
-result = data.frame(prop.table(table(x)))
-if(tab == TRUE){return(result)}
-library(plotly) ; p = plot_ly(x = x, type = "histogram", marker = list(color = "#69b3a2", line = list(color = "black", width = 2))) # THIS LINE MUST BE THE LAST.
-}
+# Load app
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/app.R"
+devtools::source_url(path)
 
-# Data set
-values = c(0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 7, 8, 9)
-
-# Output
-f(x = values, tab = TRUE)  # PLOT WILL NOT BE SHOWN IN SHINY APP.
-f(x = values, tab = FALSE) # PLOT WILL BE SHOWN IN SHINY APP.
+# Run app
+shinyApp(ui, server)
 ```
 
 
