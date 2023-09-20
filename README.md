@@ -66,7 +66,7 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 
 <p></p>
 
-## 3.1 R console
+<font style="font-size:19px;">3.1 R console</font>
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
 
