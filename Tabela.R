@@ -27,11 +27,11 @@ celulas = list(values = rbind(No, Nome, Idade),
 
 # Tabela
 margens = list(autoexpand = FALSE, b = 200, t = 200, r = 500, l = 500)
-fig <- plot_ly(type = 'table',
-               columnwidth = c(15, 15, 15),
-               columnorder = c(0, 1, 2),
-               header = cabecalho,
-               cells = celulas
-               ) %>%
+plot_ly(type = 'table',
+        columnwidth = c(15, 15, 15),
+        columnorder = c(0, 1, 2),
+        header = cabecalho,
+        cells = celulas
+        ) %>%
 layout(margin = margens)
-fig
+
