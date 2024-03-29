@@ -158,4 +158,10 @@ p = devtools::source_url(path)
 p
 ```
 
+<p align="center">
+<img src="Tabela.png" width="280" height="230"/>
+</p>
+
+<div align="center">Figura 3. Tabela.</div>
+
 
