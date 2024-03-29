@@ -1,5 +1,11 @@
 # 1. Customização de gráficos HTML
 
+<p></p>
+
+<p></p>
+
+### 1.1 Introdução
+
 <p align="justify">Os códigos em linguagem de programação R disponíveis neste repositório fornecem as seguintes customizações para gráficos HTML:</p>
 
 <p align="justify">
@@ -23,6 +29,12 @@ p1 ; p2 ; p3
 <img src="Figura_1.gif" alt="Drawing"/>
 Figura 1. Gráficos HTML.
 </p>
+
+<p></p>
+
+<p></p>
+
+### 1.2 Customização adicional
 
 <p align="justify">O código abaixo fornece uma sugestação adicional de customizações para mouseover.</p>
 
