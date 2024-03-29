@@ -159,7 +159,7 @@ p
 ```
 
 <p align="center">
-<img src="Tabela.png" width="280" height="200"/>
+<img src="Tabela.png" width="280" height="180"/>
 </p>
 
 <div align="center">Figura 3. Tabela.</div>
