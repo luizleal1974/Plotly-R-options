@@ -145,8 +145,17 @@ devtools::source_url(path)
 shinyApp(ui, server)
 ```
 
+</br>
 
+# 4. Tabela
 
+<p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
 
+```{r}
+# Tabela
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Tabela.R"
+p = devtools::source_url(path)
+p
+```
 
 
