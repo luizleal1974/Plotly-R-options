@@ -66,6 +66,12 @@ subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlege
 
 # 2. Customizar marcadores e linhas
 
+<p></p>
+
+<p></p>
+
+### 2.1 Introdução
+
 <p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas. Para reproduizr a Figura 2 utilize o código abaixo.</p>
 
 ```{r}
@@ -97,6 +103,23 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 </p>
 
 <div align="center">Figura 2. Marcadores e linhas.</div>
+
+
+<p></p>
+
+<p></p>
+
+### 2.2 Customização de marcadores
+
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Tabela.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores.</p>
+
+
+<p align="center">
+<img src="Marker.png" width="280" height="180"/>
+</p>
+
+<div align="center">Figura 3. Marcadores: cores e símbolo.</div>
+
 
 </br>
 
@@ -162,6 +185,6 @@ p
 <img src="Tabela.png" width="280" height="180"/>
 </p>
 
-<div align="center">Figura 3. Tabela.</div>
+<div align="center">Figura 4. Tabela.</div>
 
 
