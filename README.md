@@ -113,6 +113,12 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, 
 
 <p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores.</p>
 
+```{r}
+# Marcadores
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Marker.R"
+p = devtools::source_url(path)
+p
+```
 
 <p align="center">
 <img src="Marker.png" width="280" height="180"/>
