@@ -248,7 +248,12 @@ add_annotations(xref = "x",
 
 # 6. Funções
 
-| suppressWarnings(suppressMessages(library(plotly))) |
+
+| :memo:        |  suppressWarnings(suppressMessages(library(plotly))) </p> f1 = function(p, mostra)    layout(p, showlegend = mostra)     |
+|---------------|:------------------------|
+
+
+| |
 | ------------------------- |
 
 
