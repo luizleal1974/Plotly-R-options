@@ -248,7 +248,7 @@ add_annotations(xref = "x",
 
 # 6. Funções
 
-<div>
+<div class="box">
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
