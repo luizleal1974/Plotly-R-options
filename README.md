@@ -248,5 +248,6 @@ add_annotations(xref = "x",
 
 # 6. Funções
 
-| <p>Texto</p> <p>texto</p> |
+| suppressWarnings(suppressMessages(library(plotly))) |
+| texto                          |
 | ------------------------- |
