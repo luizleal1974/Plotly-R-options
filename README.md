@@ -249,14 +249,13 @@ add_annotations(xref = "x",
 # 6. Funções
 
 
-| :memo:        |  suppressWarnings(suppressMessages(library(plotly))) </p> f1 = function(p, mostra)    layout(p, showlegend = mostra) </p> f2 = function(p, estilo) add_trace(p, x = c(-1, 1), y = c(-2, 2), type = estilo, mode = 'markers') </p> p = plot_ly() </p> p = p %>% </p> f1(mostra = TRUE) %>% </p> f2(estilo = 'scatter') </p> p |
+| :memo:        |   </p> p = plot_ly() </p> p = p %>% </p> f1(mostra = TRUE) %>% </p> f2(estilo = 'scatter') </p> p |
 |---------------|:------------------------|
 
 
 
 <table width="100%">
   <tr>
-  <td width="50%">suppressWarnings(suppressMessages(library(plotly))) </br> f1 = function(p, mostra)    layout(p, showlegend = mostra) </td>
-  <td width="50%">aaa</td>
+  <td>suppressWarnings(suppressMessages(library(plotly))) </br> f1 = function(p, mostra)    layout(p, showlegend = mostra) </br> f2 = function(p, estilo) add_trace(p, x = c(-1, 1), y = c(-2, 2), type = estilo, mode = 'markers') </td>
   </tr>
 </table>
