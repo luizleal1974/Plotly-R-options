@@ -250,14 +250,13 @@ add_annotations(xref = "x",
 
 <p align="justify">É possível construir funções que contenham um conjunto de comandos e, a partir um destas funções, construir um gráfico. Tem-se a seguir uma estrutura básica na qual é importante destacar que o elemento <code><b>p</b></code> representa, simultânemante, o argumento das funções e o objeto no qual o gráfico deve ser armazenado.</p>
 
-<b>Estrutura básica</b>
 <table width="100%">
   <tr>
   <td> suppressWarnings(suppressMessages(library(plotly))) </br> f1 = function(<code><b>p</b></code>, mostra) &nbsp; layout(<code><b>p</b></code>, showlegend = mostra) </br> f2 = function(<code><b>p</b></code>, estilo) add_trace(<code><b>p</b></code>, x = c(-1, 1), y = c(-2, 2), type = estilo, mode = 'markers') </br> <code><b>p</b></code> = plot_ly() </br> <code><b>p</b></code> = <code><b>p</b></code> %>% </br> f1(mostra = TRUE) %>% </br> f2(estilo = 'scatter') </br> <code><b>p</b></code> </td>
   </tr>
 </table>
 
-<p align="justify">No código de programação o gráfico é construído a partir de duas funções: (i) a função <code>features</code> define o <i>background</i> do gráfico adiciona um texto em uma posição pré-definida pelo programador; (ii) a função <code>curva</code> estabele os padrões do gráfico de linhas.</p>
+<p align="justify">No código de programação sugerido a seguir, o gráfico é construído a partir de duas funções definidas pelo programador: (i) a função <code>features</code> define o <i>background</i> do gráfico e adiciona um texto em uma posição (x;y) pré-definida; (ii) a função <code>curva</code> estabele os padrões do gráfico de linhas. Eventualmente este tipo de abordagem pode ser útil na construção de gráficos.</p>
 
 ```{r}
 suppressWarnings(suppressMessages(library(plotly)))
