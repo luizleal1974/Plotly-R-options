@@ -249,5 +249,14 @@ add_annotations(xref = "x",
 # 6. Funções
 
 | suppressWarnings(suppressMessages(library(plotly))) |
-| texto                          |
 | ------------------------- |
+
+
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+
+
