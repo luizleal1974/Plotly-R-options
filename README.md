@@ -256,4 +256,15 @@ add_annotations(xref = "x",
 </table>
 
 
+<span style="color: red;">text</span>
+
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `texto` texto
+![#c5f015]() `texto` texto
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+
+
+```diff - text in red```
+
+
+#f03c15 text in red
 
