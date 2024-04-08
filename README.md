@@ -243,3 +243,15 @@ add_annotations(xref = "x",
 </p>
 
 <div align="center">Figura 5. Texto e anotações.</div>
+
+</br>
+
+# 6. Funções
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
