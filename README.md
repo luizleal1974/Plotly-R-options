@@ -248,7 +248,5 @@ add_annotations(xref = "x",
 
 # 6. Funções
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| <p>Texto</p> <p>texto</p> |
+| ------------------------- |
