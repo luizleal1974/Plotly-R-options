@@ -248,10 +248,24 @@ add_annotations(xref = "x",
 
 # 6. Funções
 
+<style type="text/css">
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+</style>
+
+
+
+
 <div class="box">
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.
 </div>
+
 
