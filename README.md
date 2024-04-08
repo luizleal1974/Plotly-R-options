@@ -255,5 +255,5 @@ add_annotations(xref = "x",
   </tr>
 </table>
 
-<b><font color="darkblue">Gráfico de controle $\boldsymbol{\bar{x}}$</b></font>
+<a target='_blank' rel='noopener noreferrer' href=''><code><b>p</b></code></a>
 
