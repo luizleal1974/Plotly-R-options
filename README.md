@@ -254,4 +254,9 @@ add_annotations(xref = "x",
 
 
 
-
+<table width="100%">
+  <tr>
+  <td width="50%">aaa</td>
+  <td width="50%">aaa</td>
+  </tr>
+</table>
