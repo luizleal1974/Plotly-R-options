@@ -222,9 +222,10 @@ add_annotations(xref = "paper",
                 y = 0.2,
                 xanchor = 'left',
                 yanchor = 'bottom',
-                text = "<b>NOME 1</b>",
+                text = "<b>NOME 1 \nANDRE LUIZ LEAL</b>",
                 font = list(family = 'Calibri', size = 20, color = '#009999'),
-                showarrow = FALSE
+                showarrow = FALSE,
+                align = "left"
                 ) %>%
 add_annotations(xref = "x",
                 yref = "y",
@@ -232,9 +233,10 @@ add_annotations(xref = "x",
                 y = 6,
                 xanchor = 'left',
                 yanchor = 'bottom',
-                text = "<b>NOME 2</b>",
+                text = "<b>NOME 2 \nLUIZ HENRIQUE LEAL</b>",
                 font = list(family = 'Calibri', size = 20, color = '#009999'),
-                showarrow = FALSE
+                showarrow = FALSE,
+                align = "center"
                 )
 ```
 
