@@ -241,7 +241,7 @@ add_annotations(xref = "x",
 ```
 
 <p align="center">
-<img src="Text_and_Annotations.png" width="280" height="180"/>
+<img src="Text_and_Annotations.png" width="330" height="220"/>
 </p>
 
 <div align="center">Figura 5. Texto e anotações.</div>
