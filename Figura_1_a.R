@@ -119,4 +119,3 @@
          hoverlabel = list(font = list(family = "Calibri", size = 26, color = 'white')), # DEFINE O TAMANHO E A COR DO MOUSEOVER
          margin = list(autoexpand = FALSE, b = 380, t = 150, r = 360, l = 320)
          )
-
