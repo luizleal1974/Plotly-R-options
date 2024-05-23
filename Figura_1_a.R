@@ -67,15 +67,17 @@
 
 # Atributos dos eixos
   ax = list(title =  list(text = "</br></br><b>Animais</b>",
-            font = list(family = "Calibri", size = 24, color = 'black')),    # DEFINE TAMANHO E A COR DO ROTULO DO EIXO
-            tickfont = list(family = "Calibri", size = 24, color = "black"), # DEFINE TAMANHO E A COR DOS ELEMENTOS DO EIXO
-            showticklabels = TRUE,                                           # MOSTRA (TRUE) OU OCULTA (FALSE) ELEMENTOS DO EIXO
+                          font = list(family = "Calibri", size = 24, color = 'black') # DEFINE TAMANHO E A COR DO ROTULO DO EIXO
+                          ),
+            tickfont = list(family = "Calibri", size = 24, color = "black"),          # DEFINE TAMANHO E A COR DOS ELEMENTOS DO EIXO
+            showticklabels = TRUE,                                                    # MOSTRA (TRUE) OU OCULTA (FALSE) ELEMENTOS DO EIXO
             zerolinecolor = 'rgb(255, 255, 255)',
             zerolinewidth = 2,
             gridcolor = 'rgb(255, 255, 255)'
             )
   ay = list(title =  list(text = "<b>Percentual (%)</b>",
-            font = list(family = "Calibri", size = 24, color = 'black')),
+                          font = list(family = "Calibri", size = 24, color = 'black')
+                          ),
             tickfont = list(family = "Calibri", size = 24, color = "black"),
             showticklabels = TRUE,
             tickformat = ".0%",
