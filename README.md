@@ -58,11 +58,7 @@ p2 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+text"     , hovert
 p3 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
 p4 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
 p5 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "y"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)',
-       xaxis = ax,
-       yaxis = ay,
-       hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white'))
-       )
+p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
 subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlegend = FALSE)
 ```
 
