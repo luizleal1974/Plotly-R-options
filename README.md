@@ -58,7 +58,11 @@ p2 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+text"     , hovert
 p3 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
 p4 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
 p5 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "y"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
+p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)',
+       xaxis = ax,
+       yaxis = ay,
+       hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white'))
+       )
 subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlegend = FALSE)
 ```
 
@@ -95,7 +99,13 @@ plot_ly() %>%
 add_trace(x = x1, y = y1, type = 'scatter', mode = 'markers'        , marker = list(color = '#5EA191'   ,  size = 19 )                                              ) %>%
 add_trace(x = x2, y = y2, type = 'scatter', mode = 'lines'          ,   line = list(color = 'steelblue' , width = 10 )                                              ) %>%
 add_trace(x = x3, y = y3, type = 'scatter', mode = 'lines+markers'  ,   line = list(color = '#d8ae2d'   , width = 8  ), marker = list(color = '#000000', size = 14) ) %>%
-layout(plot_bgcolor = 'rgb(240, 240, 240)', title = titulo_grafico, xaxis = ax, yaxis = ay, margin = margens, showlegend = FALSE)
+layout(plot_bgcolor = 'rgb(240, 240, 240)',
+       title = titulo_grafico,
+       xaxis = ax,
+       yaxis = ay,
+       margin = margens,
+       showlegend = FALSE
+       )
 ```
 
 <p align="center">
