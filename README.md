@@ -125,7 +125,7 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)', title = "", xaxis = ax, yaxis = ay, 
 ```
 
 <p align="center">
-<img src="Hover.png" width="280" width="430"/>
+<img src="Hover.png" width="280" height="350" width="650"/>
 </p>
 
 <div align="center">Figura 2. Customização hover.</div>
