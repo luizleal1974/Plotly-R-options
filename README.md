@@ -1,6 +1,6 @@
 # 1. Customização de gráficos HTML
 
-</br>
+<p></p>
 
 ### 1.1 Introdução
 
@@ -85,7 +85,7 @@ p
 
 # 2. Customizar marcadores e linhas
 
-</br>
+<p></p>
 
 ### 2.1 Introdução
 
@@ -156,7 +156,7 @@ p
 
 # 3. Função definida pelo programador
 
-</br>
+<p></p>
 
 ### 3.1 R console
 
