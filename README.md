@@ -32,31 +32,21 @@ Figura 1. Gráficos HTML.
 
 ### 1.2 Argumento <code>hoverinfo</code>
 
-<p align="justify">Este argumento permite define se, e quais, informações serão apresentadas no mouseover.</p>
+<p align="justify">Este argumento permite define se, e quais, informações serão apresentadas no mouseover. Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover_Info.R'><code>Hover_Info.R</code></a>.</p>
 
 ```{r}
-library(plotly)
-
-# Dados
-x1 = c(0, 1, 2, 4, 5, NA, NA, 7,  9, 12, 13, 14, NA, 16, 20, 22, 28, 30, 31, 32)
-y1 = c(0, 3, 4, 7, 8, NA, NA, 9, 15,  2,  8, 15, NA, 17, 19, 18, 16, 25, 34, 33)
-
-# Atributos dos eixos
-ax = list(title = "Eixo x", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-ay = list(title = "Eixo y", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-
-# Margens
-margens = list(autoexpand = FALSE, r = 50)
-
-# Gráfico
-p1 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+text+name", hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p2 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+text"     , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p3 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x+y+"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p4 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "x"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p5 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "y"            , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovertext = "NOME", type = 'scatter', mode = 'lines+markers', name = 'nome') %>% layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay, hoverlabel = list(font = list(family = "Calibri", size = 36, color = 'white')))
-subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlegend = FALSE)
+# Mouseover information
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Hover_Info.R"
+p = devtools::source_url(path)
+p
 ```
+
+<p align="center">
+<img src="Hover_Info.png" height="250" width="250"/>
+</p>
+
+<div align="center">Figura 2. Hover information.</div>
+
 
 </br>
 
@@ -75,7 +65,7 @@ p
 <img src="Hover.png" height="250" width="550"/>
 </p>
 
-<div align="center">Figura 2. Customização hover.</div>
+<div align="center">Figura 3. Customização hover.</div>
 
 
 </br>
@@ -102,7 +92,7 @@ p
 <img src="Marcadores_Linhas.png" width="280" height="230"/>
 </p>
 
-<div align="center">Figura 3. Marcadores e linhas.</div>
+<div align="center">Figura 4. Marcadores e linhas.</div>
 
 
 </br>
@@ -123,7 +113,7 @@ p
 <img src="Marker.png" width="280" height="180"/>
 </p>
 
-<div align="center">Figura 4. Marcadores: cores e símbolo.</div>
+<div align="center">Figura 5. Marcadores: cores e símbolo.</div>
 
 
 </br>
@@ -131,11 +121,65 @@ p
 </br>
 
 
-# 3. Função definida pelo programador
+
+
+# 3. Texto e anotações
+
+Sugestão de código para adicionar texto e anotações no gráfico (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Text_and_Annotations.R'><code>Text_and_Annotations.R</code></a>).
+
+```{r}
+# Texto e anotacoes
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Text_and_Annotations.R"
+p = devtools::source_url(path)
+p
+```
+
+<p align="center">
+<img src="Text_and_Annotations.png" width="480" height="270"/>
+</p>
+
+<div align="center">Figura 6. Texto e anotações.</div>
+
+
+</br>
+
+</br>
+
+
+
+
+# 4. Tabela
+
+<p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
+
+```{r}
+# Tabela
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Tabela.R"
+p = devtools::source_url(path)
+p
+```
+
+<p align="center">
+<img src="Tabela.png" width="280" height="180"/>
+</p>
+
+<div align="center">Figura 7. Tabela.</div>
+
+
+</br>
+
+</br>
+
+
+
+
+
+
+# 5. Função definida pelo programador
 
 <p></p>
 
-### 3.1 R console
+### 5.1 R console
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>.</p>
 
@@ -159,7 +203,7 @@ f(x = values, tab = FALSE, plt = TRUE)
 </br>
 
 
-### 3.2 Shiny
+### 5.2 Shiny
 
 <p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar a estrutura contida no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/app.R'><code>app.R</code></a>.</p>
 
@@ -178,50 +222,6 @@ shinyApp(ui, server)
 </br>
 
 
-# 4. Tabela
-
-<p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
-
-```{r}
-# Tabela
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Tabela.R"
-p = devtools::source_url(path)
-p
-```
-
-<p align="center">
-<img src="Tabela.png" width="280" height="180"/>
-</p>
-
-<div align="center">Figura 5. Tabela.</div>
-
-
-</br>
-
-</br>
-
-
-# 5. Texto e anotações
-
-Sugestão de código para adicionar texto e anotações no gráfico (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Text_and_Annotations.R'><code>Text_and_Annotations.R</code></a>).
-
-```{r}
-# Texto e anotacoes
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Text_and_Annotations.R"
-p = devtools::source_url(path)
-p
-```
-
-<p align="center">
-<img src="Text_and_Annotations.png" width="480" height="270"/>
-</p>
-
-<div align="center">Figura 6. Texto e anotações.</div>
-
-
-</br>
-
-</br>
 
 
 # 6. Funções
