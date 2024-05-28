@@ -42,7 +42,7 @@ p
 ```
 
 <p align="center">
-<img src="Hover_Info.png" height="250" width="350"/>
+<img src="Hover_Info.png" height="300" width="550"/>
 </p>
 
 <div align="center">Figura 2. Hover information.</div>
