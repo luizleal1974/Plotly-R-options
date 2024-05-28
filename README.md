@@ -89,36 +89,13 @@ p
 
 ### 2.1 Introdução
 
-<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas. Para reproduizr a Figura 2 utilize o código abaixo.</p>
+<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>).</p>
 
 ```{r}
-library(plotly)
-
-# Dados
-x1 = c(0, 1, 2, 3, 4) ; y1 = c(1, 2, 6, 8, 9)
-x2 = c(5, 8, 9)       ; y2 = c(2, 6, 8)
-x3 = c(2, 4, 6)       ; y3 = c(4, 2, 0)
-
-# Atributos dos eixos
-ax = list(title = "Eixo x", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-ay = list(title = "Eixo y", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-
-# Margens
-margens = list(autoexpand = FALSE, b = 200, t = 200, r = 500, l = 500)
-
-# Grafico
-titulo_grafico = "</br> </br> </br> </br> </br> Grafico"
-plot_ly() %>%
-add_trace(x = x1, y = y1, type = 'scatter', mode = 'markers'        , marker = list(color = '#5EA191'   ,  size = 19 )                                              ) %>%
-add_trace(x = x2, y = y2, type = 'scatter', mode = 'lines'          ,   line = list(color = 'steelblue' , width = 10 )                                              ) %>%
-add_trace(x = x3, y = y3, type = 'scatter', mode = 'lines+markers'  ,   line = list(color = '#d8ae2d'   , width = 8  ), marker = list(color = '#000000', size = 14) ) %>%
-layout(plot_bgcolor = 'rgb(240, 240, 240)',
-       title = titulo_grafico,
-       xaxis = ax,
-       yaxis = ay,
-       margin = margens,
-       showlegend = FALSE
-       )
+# Marcadores e linhas
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Marcadores_Linhas.R"
+p = devtools::source_url(path)
+p
 ```
 
 <p align="center">
@@ -226,47 +203,13 @@ p
 
 # 5. Texto e anotações
 
-Sugestão de código para adicionar texto e anotações no gráfico.
+Sugestão de código para adicionar texto e anotações no gráfico (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Text_and_Annotations.R'><code>Text_and_Annotations.R</code></a>).
 
 ```{r}
-library(plotly)
-
-# Dados
-x1 = c(0, 1, 2, 3, 4) ; y1 = c(1, 2, 6, 8, 9)
-
-# Margens
-margens = list(autoexpand = FALSE, b = 200, t = 200, r = 500, l = 500)
-
-# Atributos dos eixos
-ax = list(title = "Eixo x", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-ay = list(title = "Eixo y", zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
-
-# Grafico
-plot_ly() %>%
-add_trace(x = x1, y = y1, type = 'scatter', mode = 'markers') %>%
-layout(plot_bgcolor = 'rgb(240, 240, 240)', xaxis = ax, yaxis = ay,margin = margens, showlegend = FALSE) %>%
-add_annotations(xref = "paper",
-                yref = "paper",
-                x = 1,
-                y = 0.2,
-                xanchor = 'left',
-                yanchor = 'bottom',
-                text = "<b>NOME 1 \nANDRE LUIZ LEAL</b>",
-                font = list(family = 'Calibri', size = 20, color = '#009999'),
-                showarrow = FALSE,
-                align = "left"
-                ) %>%
-add_annotations(xref = "x",
-                yref = "y",
-                x = 2,
-                y = 6,
-                xanchor = 'left',
-                yanchor = 'bottom',
-                text = "<b>NOME 2 \nLUIZ HENRIQUE LEAL</b>",
-                font = list(family = 'Calibri', size = 20, color = '#009999'),
-                showarrow = FALSE,
-                align = "center"
-                )
+# Texto e anotacoes
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Text_and_Annotations.R"
+p = devtools::source_url(path)
+p
 ```
 
 <p align="center">
