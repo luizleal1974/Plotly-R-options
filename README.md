@@ -67,6 +67,8 @@ subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlege
 
 <p></p>
 
+<p></p>
+
 ### 1.3 Características do <i>hover</i>
 
 <p align="justify">O código de programação sugerido no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover.R'><code>Hover.R</code></a> apresenta formas de customizar o mousehover. <b>É imporatne destacar que na função <code>add_annotations</code> não é possível utilizar estas funcionalidades</b>b.</p>
