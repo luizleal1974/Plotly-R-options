@@ -32,7 +32,7 @@ Figura 1. Gráficos HTML.
 
 ### 1.2 Argumento <code>hoverinfo</code>
 
-<p align="justify">Este argumento permite define se, e quais, informações serão apresentadas no mouseover. Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover_Info.R'><code>Hover_Info.R</code></a>.</p>
+<p align="justify">Este argumento permite definir se, e quais, informações serão apresentadas no mouseover. Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover_Info.R'><code>Hover_Info.R</code></a>.</p>
 
 ```{r}
 # Mouseover information
