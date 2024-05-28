@@ -1,8 +1,6 @@
 # 1. Customização de gráficos HTML
 
-<p></p>
-
-<p></p>
+</br>
 
 ### 1.1 Introdução
 
@@ -30,9 +28,7 @@ p1 ; p2 ; p3
 Figura 1. Gráficos HTML.
 </p>
 
-<p></p>
-
-<p></p>
+</br>
 
 ### 1.2 Argumento <code>hoverinfo</code>
 
@@ -62,12 +58,7 @@ p6 = plot_ly() %>% add_trace(x = x1, y = y1, hoverinfo = "none"         , hovert
 subplot(p1, p2, p3, p4, p5, p6, nrows = 2) %>% layout(margin = margens, showlegend = FALSE)
 ```
 
-
-<p></p>
-
-<p></p>
-
-<p></p>
+</br>
 
 ### 1.3 Características do <i>hover</i>
 
@@ -86,13 +77,15 @@ p
 
 <div align="center">Figura 2. Customização hover.</div>
 
+
 </br>
+
+</br>
+
 
 # 2. Customizar marcadores e linhas
 
-<p></p>
-
-<p></p>
+</br>
 
 ### 2.1 Introdução
 
@@ -135,9 +128,8 @@ layout(plot_bgcolor = 'rgb(240, 240, 240)',
 <div align="center">Figura 3. Marcadores e linhas.</div>
 
 
-<p></p>
+</br>
 
-<p></p>
 
 ### 2.2 Customização de marcadores
 
@@ -159,11 +151,12 @@ p
 
 </br>
 
+</br>
+
+
 # 3. Função definida pelo programador
 
-<p></p>
-
-<p></p>
+</br>
 
 ### 3.1 R console
 
@@ -186,9 +179,7 @@ f(x = values, tab = TRUE, plt = FALSE)
 f(x = values, tab = FALSE, plt = TRUE)
 ```
 
-<p></p>
-
-<p></p>
+</br>
 
 
 ### 3.2 Shiny
@@ -204,7 +195,11 @@ devtools::source_url(path)
 shinyApp(ui, server)
 ```
 
+
 </br>
+
+</br>
+
 
 # 4. Tabela
 
@@ -223,7 +218,11 @@ p
 
 <div align="center">Figura 5. Tabela.</div>
 
+
 </br>
+
+</br>
+
 
 # 5. Texto e anotações
 
@@ -276,7 +275,11 @@ add_annotations(xref = "x",
 
 <div align="center">Figura 6. Texto e anotações.</div>
 
+
 </br>
+
+</br>
+
 
 # 6. Funções
 
@@ -320,3 +323,4 @@ curva(linha = 2, x_val = x2, y_val = y2, curve_color = 'crimson') %>%     # Func
 features(x_pos = 1, y_pos = 8)                                            # Function set by user
 p
 ```
+
