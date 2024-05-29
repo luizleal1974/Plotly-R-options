@@ -43,7 +43,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Hover_Info.png" height="350" width="650"/>
+<img src="/R codes/Hover_Info.png" height="350" width="660"/>
 </p>
 
 <div align="center">Figura 2. Hover information.</div>
@@ -80,17 +80,17 @@ p
 
 ### 2.1 Introdução
 
-<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>).</p>
+<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>).</p>
 
 ```{r}
 # Marcadores e linhas
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Marcadores_Linhas.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marcadores_Linhas.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Marcadores_Linhas.png" width="280" height="230"/>
+<img src="/R codes/Marcadores_Linhas.png" width="280" height="230"/>
 </p>
 
 <div align="center">Figura 4. Marcadores e linhas.</div>
@@ -101,17 +101,17 @@ p
 
 ### 2.2 Customização de marcadores
 
-<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores.</p>
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores.</p>
 
 ```{r}
 # Marcadores
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Marker.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marker.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Marker.png" width="280" height="180"/>
+<img src="/R codes/Marker.png" width="280" height="180"/>
 </p>
 
 <div align="center">Figura 5. Marcadores: cores e símbolo.</div>
