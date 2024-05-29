@@ -24,7 +24,7 @@ p1 ; p2 ; p3
 ```
 
 <p align="center">
-<img src="Figura_1.gif" alt="Drawing"/>
+<img src="R codes/Figura_1.gif" alt="Drawing"/>
 Figura 1. Gráficos HTML.
 </p>
 
