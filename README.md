@@ -184,7 +184,11 @@ p
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>. Acesso o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hide_Show_Plot_Output.R'><code>Hide_Show_Plot_Output.R</code></a>.</p>
 
+<p align="center">
+<img src="/R codes/Hide_Show_Plot_Output.gif" alt="Drawing"/>
+</p>
 
+<div align="center">Figura 8. Mostrar/Ocultar tabela e gráfico.</div>
 
 </br>
 
@@ -205,12 +209,9 @@ shinyApp(ui, server)
 
 </br>
 
-</br>
 
 
-
-
-# 6. Funções
+### 5.3 Customizar
 
 <p align="justify">É possível construir funções que contenham um conjunto de comandos e, a partir um destas funções, construir um gráfico. Tem-se a seguir uma estrutura básica na qual é importante destacar que o elemento <code><b>p</b></code> representa, simultânemante, o argumento das funções e o objeto no qual o gráfico deve ser armazenado.</p>
 
