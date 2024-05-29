@@ -8,7 +8,7 @@ Gallon = c(7, 9, 8, 1, 3, 4, 13, 11, 15, 20, 22, 23, 21, 6, 9, 7, 8)
 dados = data.frame(Fuel, Km, Gallon)
 dados
 
-# Vari·veis
+# Vari√°veis
 x = dados$Km
 y = dados$Gallon
 Grupo = dados$Fuel # VARIAVEL DE SEGMENTACAO
