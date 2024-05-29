@@ -126,17 +126,17 @@ p
 
 # 3. Texto e anotações
 
-Sugestão de código para adicionar texto e anotações no gráfico (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Text_and_Annotations.R'><code>Text_and_Annotations.R</code></a>).
+Sugestão de código para adicionar texto e anotações no gráfico (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Text_and_Annotations.R'><code>Text_and_Annotations.R</code></a>).
 
 ```{r}
 # Texto e anotacoes
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Text_and_Annotations.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Text_and_Annotations.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Text_and_Annotations.png" width="480" height="270"/>
+<img src="/R codes/Text_and_Annotations.png" width="480" height="270"/>
 </p>
 
 <div align="center">Figura 6. Texto e anotações.</div>
@@ -151,17 +151,17 @@ p
 
 # 4. Tabela
 
-<p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
+<p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
 
 ```{r}
 # Tabela
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Tabela.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Tabela.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Tabela.png" width="280" height="180"/>
+<img src="/R codes/Tabela.png" width="280" height="180"/>
 </p>
 
 <div align="center">Figura 7. Tabela.</div>
