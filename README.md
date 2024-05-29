@@ -195,7 +195,7 @@ p
 
 ```{r}
 # Load app
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/app.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/app.R"
 devtools::source_url(path)
 
 # Run app
