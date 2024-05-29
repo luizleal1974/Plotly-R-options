@@ -43,7 +43,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Hover_Info.png" height="350" width="680"/>
+<img src="/R codes/Hover_Info.png" height="350" width="700"/>
 </p>
 
 <div align="center">Figura 2. Hover information.</div>
@@ -111,7 +111,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Marker.png" width="280" height="180"/>
+<img src="/R codes/Marker.png" width="300" height="180"/>
 </p>
 
 <div align="center">Figura 5. Marcadores: cores e símbolo.</div>
