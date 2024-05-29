@@ -111,7 +111,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Marker.png" width="400" height="280"/>
+<img src="/R codes/Marker.png" width="400" height="320"/>
 </p>
 
 <div align="center">Figura 5. Marcadores: cores e símbolo.</div>
