@@ -33,17 +33,17 @@ Figura 1. Gráficos HTML.
 
 ### 1.2 Argumento <code>hoverinfo</code>
 
-<p align="justify">Este argumento permite definir se, e quais, informações serão apresentadas no mouseover. Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover_Info.R'><code>Hover_Info.R</code></a>.</p>
+<p align="justify">Este argumento permite definir se, e quais, informações serão apresentadas no mouseover. Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hover_Info.R'><code>Hover_Info.R</code></a>.</p>
 
 ```{r}
 # Mouseover information
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Hover_Info.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Hover_Info.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Hover_Info.png" height="350" width="650"/>
+<img src="/R codes/Hover_Info.png" height="350" width="650"/>
 </p>
 
 <div align="center">Figura 2. Hover information.</div>
@@ -53,17 +53,17 @@ p
 
 ### 1.3 Características do <i>hover</i>
 
-<p align="justify">O código de programação sugerido no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Hover.R'><code>Hover.R</code></a> apresenta formas de customizar o mousehover. <b>É imporatne destacar que na função <code>add_annotations</code> não é possível utilizar estas funcionalidades</b>b.</p>
+<p align="justify">O código de programação sugerido no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hover.R'><code>Hover.R</code></a> apresenta formas de customizar o mousehover. <b>É imporatne destacar que na função <code>add_annotations</code> não é possível utilizar estas funcionalidades</b>b.</p>
 
 ```{r}
 # Mouseover
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/Hover.R"
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Hover.R"
 p = devtools::source_url(path)
 p
 ```
 
 <p align="center">
-<img src="Hover.png" height="250" width="550"/>
+<img src="/R codes/Hover.png" height="250" width="550"/>
 </p>
 
 <div align="center">Figura 3. Customização hover.</div>
