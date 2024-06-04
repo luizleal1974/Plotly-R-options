@@ -170,7 +170,7 @@ p1 ; p2 ; p3
 Figura 7. Áreas hachuradas (<i>filled area</i>).
 </p>
 
-<p align="justify">Nos testes estatísticos de hipóteses, em geral, adota-se a expressão “não se rejeita a hipótese nula H<sub>0</sub>” (<i>fail to reject</i> - FTR H<sub>0</sub>) porque a não rejeição de H<sub>0</sub> evidencia algum grau de concordância entre os dados e a hipótese nula, mas não necessariamente indica que a H<sub>0</sub> é correta.</p>
+<p align="justify">Nos testes estatísticos de hipóteses, em geral, adota-se a expressão "não se rejeita a hipótese nula H<sub>0</sub>" (<i>fail to reject</i> - FTR H<sub>0</sub>) porque a não rejeição de H<sub>0</sub> evidencia algum grau de concordância entre os dados e a hipótese nula, mas não necessariamente indica que H<sub>0</sub> é correta.</p>
 
 
 </br>
