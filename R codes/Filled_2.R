@@ -10,7 +10,7 @@ ax = list(title = "", tickfont = list(family = "Calibri", size = 30, color = "bl
 ay = list(title = "", tickfont = list(family = "Calibri", size = 30, color = "black"), zerolinecolor = 'rgb(255, 255, 255)', zerolinewidth = 2, gridcolor = 'rgb(255, 255, 255)')
 
 # Margens
-margens = list(autoexpand = FALSE, r = 787, l = 787, t = 385, b = 385)
+margens = list(autoexpand = FALSE, r = 520, l = 520, t = 250, b = 250)
 
 # Grafico
 plot_ly() %>%
