@@ -147,9 +147,41 @@ p
 </br>
 
 
+# 4. <i>Filled area</i>
+
+<p align="justify">Os códigos de programação sugeridos permitem construir gráficos com áreas hachuradas (<i>filled area</i>).</p>
+
+<p align="justify">
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_1.R'><code>Filled_1.R</code></a> (Figura 7a): Função <code><b>add_polygons</b></code>.</li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_2.R'><code>Filled_2.R</code></a> (Figura 7a): Argumento <code><b>fill = "tozeroy"</b></code>.<sup><b>(*)</b></sup></li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_3.R'><code>Filled_3.R</code></a> (Figura 7b).</li>
+</p>
+
+<p align="justify"><sup><b>(*)</b></sup> <code>Não é possível utilizar o argumento <b>opacity</b></code></p>.
+
+```{r}
+path1 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Filled_1.R"
+path2 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Filled_2.R"
+path3 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Filled_3.R"
+p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p3 = devtools::source_url(path3)
+p1 ; p2 ; p3
+```
+
+<p align="center">
+<img src="/R codes/Filled.png" alt="Drawing"/>
+Figura 7. Áreas hachuradas (<i>filled area</i>).
+</p>
+
+<p align="justify">Nos testes estatísticos de hipóteses, em geral, adota-se a expressão “não se rejeita a hipótese nula H<sub>0</sub>” (<i>fail to reject</i> - FTR H<sub>0</sub>) porque a não rejeição de H<sub>0</sub> evidencia algum grau de concordância entre os dados e a hipótese nula, mas não necessariamente indica que a H<sub>0</sub> é correta.</p>
 
 
-# 4. Tabela
+</br>
+
+</br>
+
+
+
+# 5. Tabela
 
 <p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
 
@@ -164,7 +196,7 @@ p
 <img src="/R codes/Tabela.png" width="280" height="180"/>
 </p>
 
-<div align="center">Figura 7. Tabela.</div>
+<div align="center">Figura 8. Tabela.</div>
 
 
 </br>
@@ -176,11 +208,11 @@ p
 
 
 
-# 5. Função
+# 6. Função
 
 <p></p>
 
-### 5.1 Mostrar/Ocultar
+### 6.1 Mostrar/Ocultar
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>. Acesso o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hide_Show_Plot_Output.R'><code>Hide_Show_Plot_Output.R</code></a>.</p>
 
@@ -188,12 +220,12 @@ p
 <img src="/R codes/Hide_Show_Plot_Output.gif" alt="Drawing"/>
 </p>
 
-<div align="center">Figura 8. Mostrar/Ocultar tabela e gráfico.</div>
+<div align="center">Figura 9. Mostrar/Ocultar tabela e gráfico.</div>
 
 </br>
 
 
-### 5.2 Shiny
+### 6.2 Shiny
 
 <p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar a estrutura contida no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/app.R'><code>app.R</code></a>.</p>
 
@@ -211,7 +243,7 @@ shinyApp(ui, server)
 
 
 
-### 5.3 Customizar
+### 6.3 Customizar
 
 <p align="justify">É possível construir funções que contenham um conjunto de comandos e, a partir um destas funções, construir um gráfico. Tem-se a seguir uma estrutura básica na qual é importante destacar que o elemento <code><b>p</b></code> representa, simultânemante, o argumento das funções e o objeto no qual o gráfico deve ser armazenado.</p>
 
