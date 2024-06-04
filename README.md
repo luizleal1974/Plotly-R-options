@@ -153,11 +153,9 @@ p
 
 <p align="justify">
 <li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_1.R'><code>Filled_1.R</code></a> (Figura 7a): Função <code><b>add_polygons</b></code>.</li>
-<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_2.R'><code>Filled_2.R</code></a> (Figura 7a): Argumento <code><b>fill = "tozeroy"</b></code>.<sup><b>(*)</b></sup></li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_2.R'><code>Filled_2.R</code></a> (Figura 7a): Argumento <code><b>fill = "tozeroy"</b></code>. Nota: Não é possível utilizar o argumento <code><b>opacity</b></code>.
 <li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Filled_3.R'><code>Filled_3.R</code></a> (Figura 7b).</li>
 </p>
-
-<p align="justify"><sup><b>(*)</b></sup> <code>Não é possível utilizar o argumento <b>opacity</b></code></p>.
 
 ```{r}
 path1 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Filled_1.R"
