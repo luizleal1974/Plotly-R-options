@@ -6,7 +6,7 @@ x  = seq(from = -3  , to = 3, by = 0.001) ;  y =  dnorm(x = x , mean = 0, sd = 1
 xa = seq(from = 1.35, to = 3, by = 0.001) ; ya =  dnorm(x = xa, mean = 0, sd = 1)
 
 # Margens
-margens = list(autoexpand = FALSE, r = 787, l = 787, t = 385, b = 385)
+margens = list(autoexpand = FALSE, r = 520, l = 520, t = 250, b = 250)
 
 # Atributos dos eixos
 ax = list(title = "",
