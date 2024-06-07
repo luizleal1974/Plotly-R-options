@@ -170,7 +170,28 @@ p1 ; p2 ; p3
 Figura 7. Áreas hachuradas (<i>filled area</i>).
 </p>
 
-<p align="justify">Nos testes estatísticos de hipóteses, em geral, adota-se a expressão "não se rejeita a hipótese nula H<sub>0</sub>" (<i>fail to reject</i> - FTR H<sub>0</sub>) porque a não rejeição de H<sub>0</sub> evidencia algum grau de concordância entre os dados e a hipótese nula, mas não necessariamente indica que H<sub>0</sub> é correta.</p>
+
+</br>
+
+</br>
+
+# 5. <i>Slider</i>
+
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/slider.R'><code>slider.R</code></a> contém um sugestão de código para customização de <i>slider</i> (<ocde>animation_slider</ocde>code e <code>animation_button</code>code).</p>
+
+
+```{r}
+# Slider
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/slider.R"
+p = devtools::source_url(path)
+p
+```
+
+<p align="center">
+<img src="/R codes/slider.gif" alt="Drawing"/>
+Figura 8. Slider.
+</p>
+
 
 
 </br>
@@ -178,8 +199,7 @@ Figura 7. Áreas hachuradas (<i>filled area</i>).
 </br>
 
 
-
-# 5. Tabela
+# 6. Tabela
 
 <p align="justify"> O código <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Tabela.R'><code>Tabela.R</code></a> permite a construção de tabelas.</p>
 
@@ -194,7 +214,7 @@ p
 <img src="/R codes/Tabela.png" width="280" height="180"/>
 </p>
 
-<div align="center">Figura 8. Tabela.</div>
+<div align="center">Figura 9. Tabela.</div>
 
 
 </br>
@@ -206,11 +226,11 @@ p
 
 
 
-# 6. Função
+# 7. Função
 
 <p></p>
 
-### 6.1 Mostrar/Ocultar
+### 7.1 Mostrar/Ocultar
 
 <p align="justify">Para criar uma função que retorne gráficos em HTML é necessário utilizar o comando <code>print</code>. Acesso o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hide_Show_Plot_Output.R'><code>Hide_Show_Plot_Output.R</code></a>.</p>
 
@@ -223,7 +243,7 @@ p
 </br>
 
 
-### 6.2 Shiny
+### 7.2 Shiny
 
 <p align="justify">Nos aplicativos <b>Shiny/R</b> deve-se utilizar a estrutura contida no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/app.R'><code>app.R</code></a>.</p>
 
@@ -241,7 +261,7 @@ shinyApp(ui, server)
 
 
 
-### 6.3 Customizar
+### 7.3 Customizar
 
 <p align="justify">É possível construir funções que contenham um conjunto de comandos e, a partir um destas funções, construir um gráfico. Tem-se a seguir uma estrutura básica na qual é importante destacar que o elemento <code><b>p</b></code> representa, simultânemante, o argumento das funções e o objeto no qual o gráfico deve ser armazenado.</p>
 
