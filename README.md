@@ -189,10 +189,9 @@ p
 
 <p align="center">
 <img src="/R codes/slider.gif" alt="Drawing"/>
-Figura 8. Slider.
 </p>
 
-
+<div align="center">Figura 8. Slider.</div>
 
 </br>
 
