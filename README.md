@@ -177,7 +177,7 @@ Figura 7. Áreas hachuradas (<i>filled area</i>).
 
 # 5. <i>Slider</i>
 
-<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/slider.R'><code>slider.R</code></a> contém um sugestão de código para customização de <i>slider</i> (<code>animation_slider</code> e <code>animation_button</code>).</p>
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/slider.R'><code>slider.R</code></a> contém um sugestão de código para customização de <i>slider</i>: funções <code>animation_slider</code> e <code>animation_button</code>.</p>
 
 
 ```{r}
