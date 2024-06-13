@@ -90,7 +90,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Marcadores_Linhas.png" width="280" height="230"/>
+<img src="/R codes/Marcadores_Linhas.png" width="380" height="330"/>
 </p>
 
 <div align="center">Figura 4. Marcadores e linhas.</div>
