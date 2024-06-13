@@ -35,7 +35,7 @@ add_trace(x = x ,
           mode = "lines",
           line = list(color = 'black', width = 3),
           hoverinfo = "text",
-          hovertext = "RepresentaÃ§Ã£o do p-valor"
+          hovertext = "Representacao do p-valor"
           ) %>%
 layout(plot_bgcolor = 'rgb(240, 240, 240)',
        title = "",
