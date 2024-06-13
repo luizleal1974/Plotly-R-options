@@ -63,7 +63,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Hover.png" height="290" width="590"/>
+<img src="/R codes/Hover.png" height="290" width="610"/>
 </p>
 
 <div align="center">Figura 3. Customização hover.</div>
