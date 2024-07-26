@@ -221,10 +221,6 @@ p
 </br>
 
 
-
-
-
-
 # 7. Função
 
 <p></p>
@@ -271,5 +267,35 @@ shinyApp(ui, server)
 </table>
 
 <p align="justify">No código de programação sugerido, <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Customizar.R'><code>Customizar.R</code></a>, o gráfico é construído a partir de duas funções definidas pelo programador: (i) a função <code>features</code> define o <i>background</i> do gráfico e adiciona um texto em uma posição (x;y) pré-definida; (ii) a função <code>curva</code> estabele os padrões do gráfico de linhas. Eventualmente este tipo de abordagem pode ser útil na construção de gráficos.</p>
+
+
+</br>
+
+</br>
+
+
+# 8. Gráfico de setores
+
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/pie.R'><code>pie.R</code></a> contém uma sugestão de código de programação para construção de gráfico de setores. Neste caso é importante destacar que: </p>
+
+<p align="justify">
+<li>Figura 10a: O argumento <code><b>textinfo = "text"</b></code> permite customizar as informações apresentadas no gráfico conforme definido no argumento <code><b>text = ~rotulo</b></code>. Neste exemplo foi definido que o percentual seria apresentado com <b>duas casas decimais</b>.</li>
+ <li>Figura 10b: Ao se utilizar o argumento <code><b>textinfo = "label+percent"</b></code> não é possível definir o número de casas decimais. Neste contexto a apresentação dos percentuais fica restrita a <b>3 dígitos significativos</b> (por exemplo 3.25% e 96.8%). Cabe ressaltar que este argumento conjugado com <code><b>showlegend = TRUE</b></code> permite recalcular os percentuais a medida que uma, ou mais, categorias são omitidas.</li>
+</p>
+
+```{r}
+# Gráfico de setores
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/pie.R"
+devtools::source_url(path)
+p1 ; p2
+```
+
+<p align="center">
+<img src="/R codes/pie.gif" alt="Drawing"/>
+</p>
+
+<div align="center">Figura 10. Gráfico de setores.</div>
+
+</br>
 
 </br>
