@@ -283,6 +283,8 @@ shinyApp(ui, server)
 <li>Figura 10b: Ao se utilizar o argumento <code><b>textinfo = "label+percent"</b></code> não é possível definir o número de casas decimais. Neste contexto a apresentação dos percentuais fica restrita a <b>3 dígitos significativos</b> (por exemplo 3.25 % e 96.8 %). Cabe ressaltar que este argumento conjugado com <code><b>showlegend = TRUE</b></code> permite recalcular os percentuais a medida que uma, ou mais, categorias são omitidas.</li>
 </div>
 
+<p></p>
+
 ```{r}
 # Gráfico de setores
 path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/pie.R"
