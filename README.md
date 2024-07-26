@@ -280,7 +280,7 @@ shinyApp(ui, server)
 
 <p align="justify">
 <li>Figura 10a: O argumento <code><b>textinfo = "text"</b></code> permite customizar as informações apresentadas no gráfico conforme definido no argumento <code><b>text = ~rotulo</b></code>. Neste exemplo foi definido que o percentual seria apresentado com <b>duas casas decimais</b>.</li>
- <li>Figura 10b: Ao se utilizar o argumento <code><b>textinfo = "label+percent"</b></code> não é possível definir o número de casas decimais. Neste contexto a apresentação dos percentuais fica restrita a <b>3 dígitos significativos</b> (por exemplo 3.25% e 96.8%). Cabe ressaltar que este argumento conjugado com <code><b>showlegend = TRUE</b></code> permite recalcular os percentuais a medida que uma, ou mais, categorias são omitidas.</li>
+<li>Figura 10b: Ao se utilizar o argumento <code><b>textinfo = "label+percent"</b></code> não é possível definir o número de casas decimais. Neste contexto a apresentação dos percentuais fica restrita a <b>3 dígitos significativos</b> (por exemplo 3.25 % e 96.8 %). Cabe ressaltar que este argumento conjugado com <code><b>showlegend = TRUE</b></code> permite recalcular os percentuais a medida que uma, ou mais, categorias são omitidas.</li>
 </p>
 
 ```{r}
