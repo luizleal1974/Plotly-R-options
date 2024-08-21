@@ -276,7 +276,7 @@ shinyApp(ui, server)
 
 # 8. Gráfico de setores
 
-<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/pie.R'><code>pie.R</code></a> contém uma sugestão de código de programação para construção de gráfico de setores. Neste caso é importante destacar que: </p>
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/pie.R'><code>pie.R</code></a> contém uma sugestão de código de programação para construção de gráfico de setores. Neste caso é importante destacar que:</p>
 
 <div align="justify">
 <li>Figura 10a: O argumento <code><b>textinfo = "text"</b></code> permite customizar as informações apresentadas no gráfico conforme definido no argumento <code><b>text = ~rotulo</b></code>. Neste exemplo foi definido que o percentual seria apresentado com <b>duas casas decimais</b>.</li>
@@ -297,6 +297,36 @@ p1 ; p2
 </p>
 
 <div align="center">Figura 10. Gráfico de setores.</div>
+
+
+
+</br>
+
+
+# 9. Formatar data (calendário)
+
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Formatar_data.R'><code>Formatar_data.R</code></a> contém uma sugestão de código de programação para formatação de data em gráficos.</p>
+
+<p></p>
+
+```{r}
+# Formatar data (calendário)        
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Formatar_data.R"
+p = devtools::source_url(path)
+p
+```
+
+<p align="center">
+<img src="/R codes/Formatar_data.png" alt="Drawing"/>
+</p>
+
+<div align="center">Figura 11. Formatação de data.</div>
+
+
+
+
+
+
 
 </br>
 
