@@ -83,11 +83,9 @@ p
 <p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas.</p>
 
 <p align="justify">
-<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>: Pacote <code>plotly</code>.</li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>.</li>
 <li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas_ggplot2.R'><code>Marcadores_Linhas_ggplot2.R</code></a>.</li>
 </p>
-
-
 
 ```{r}
 # Marcadores e linhas
@@ -111,20 +109,11 @@ p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p1 ; p2
 <p align="justify"> Código de programação para customizar cores e símbolos dos marcadores.</p>
 
 <p align="justify">
-<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a>: Pacote <code>plotly</code>.</li>
-<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker_ggplot2.R'><code>Marker_ggplot2.R</code></a>. <code>Nota: Adiciona marcadores utilizando looping.</code></li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a>: Customização de cores e símbolos dos marcadores.</li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker_ggplot2.R'><code>Marker_ggplot2.R</code></a>: Customização de símbolos dos marcadores<sup><b>1</b></sup>. <code>Nota: Adiciona marcadores utilizando looping.</code></li>
 </p>
 
-
-
-
-
-
-
-
- O pacote <code>ggplot2</code> permite customizar os símbolos dos marcadores (). Para informações complementares acesse <a target='_blank' rel='noopener noreferrer' href='http://www.sthda.com/english/wiki/ggplot2-point-shapes'><code>ggplot2 point shapes</code></a>
-
-
+<p align="justify"><sup><b>1</b></sup> Para informações complementares acesse <a target='_blank' rel='noopener noreferrer' href='http://www.sthda.com/english/wiki/ggplot2-point-shapes'><code>ggplot2 point shapes</code></a>.</p>
 
 ```{r}
 # Marcadores
