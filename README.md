@@ -80,13 +80,13 @@ p
 
 ### 2.1 Introdução
 
-<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>).</p>
+<p align="justify">Sugestão de código de programação em R para customizar marcadores e linhas (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas.R'><code>Marcadores_Linhas.R</code></a>) O pacote <code>ggplot2</code> permite, de modo similar, este tipo de customização (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marcadores_Linhas_ggplot2.R'><code>Marcadores_Linhas_ggplot2.R</code></a>).</p>
 
 ```{r}
 # Marcadores e linhas
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marcadores_Linhas.R"
-p = devtools::source_url(path)
-p
+path1 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marcadores_Linhas.R"
+path2 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marcadores_Linhas_ggplot2.R"
+p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p1 ; p2
 ```
 
 <p align="center">
@@ -101,13 +101,13 @@ p
 
 ### 2.2 Customização de marcadores
 
-<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores.</p>
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores. O pacote <code>ggplot2</code> permite customizar os símbolos dos marcadores (a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker_ggplot2.R'><code>Marker_ggplot2.R</code></a>).</p>
 
 ```{r}
 # Marcadores
-path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marker.R"
-p = devtools::source_url(path)
-p
+path1 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marker.R"
+path2 = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Marker_ggplot2.R"
+p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p1 ; p2
 ```
 
 <p align="center">
