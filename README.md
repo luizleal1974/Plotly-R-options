@@ -101,7 +101,7 @@ p1 = devtools::source_url(path1) ; p2 = devtools::source_url(path2) ; p1 ; p2
 
 ### 2.2 Customização de marcadores
 
-<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores. O pacote <code>ggplot2</code> permite customizar os símbolos dos marcadores (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker_ggplot2.R'><code>Marker_ggplot2.R</code></a>).</p>
+<p align="justify"> O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker.R'><code>Marker.R</code></a> fornece uma sugestão de código para customizar cores e símbolos dos marcadores. O pacote <code>ggplot2</code> permite customizar os símbolos dos marcadores (<a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Marker_ggplot2.R'><code>Marker_ggplot2.R</code></a>). Para informações complementares acesse <a target='_blank' rel='noopener noreferrer' href='http://www.sthda.com/english/wiki/ggplot2-point-shapes'><code>ggplot2 point shapes</code></a>.</p>
 
 ```{r}
 # Marcadores
