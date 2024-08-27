@@ -53,7 +53,7 @@ p
 
 ### 1.3 <i>Hover features</i>
 
-<p align="justify">O código de programação sugerido no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hover.R'><code>Hover.R</code></a> apresenta formas de customizar o mousehover. <b>É imporatne destacar que na função <code>add_annotations</code> não é possível utilizar estas funcionalidades</b>.</p>
+<p align="justify">O código de programação sugerido no arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Hover.R'><code>Hover.R</code></a> apresenta formas de customizar o mousehover. <b>É importante destacar que na função <code>add_annotations</code> não é possível utilizar estas funcionalidades</b>.</p>
 
 ```{r}
 # Mouseover
