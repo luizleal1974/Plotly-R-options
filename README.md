@@ -347,7 +347,7 @@ p
 </p>
 
 <p align="center">
-Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code><b>Formatar_data.md</b>b</code></a>.
+Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code><b>Formatar_data.md</b></code></a>.
 </p>
 
 
