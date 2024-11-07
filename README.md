@@ -340,14 +340,14 @@ p
 
 # 10. Histograma
 
-<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code>Formatar_data.md</code></a> contém algumas sugestões de códigos de programação em R para construção de histogramas.</p>
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code>Histogram.md</code></a> contém algumas sugestões de códigos de programação em R para construção de histogramas.</p>
 
 <p align="center">
 <img src="/Histogram/Histogram.png" alt="Drawing"/>
 </p>
 
 <p align="center">
-Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code><b>Formatar_data.md</b></code></a>.
+Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code><b>Histogram.md</b></code></a>.
 </p>
 
 
