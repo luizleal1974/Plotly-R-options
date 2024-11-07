@@ -13,7 +13,7 @@ p = devtools::source_url(path) ; p
 ```
 
 <p align="center">
-<img src="/Histogram/Histogram.png" alt="Drawing"/>
+<img src="/Histogram/Histogram.png" alt="Drawing" width="500" height="600"/>
 </p>
 
 <p align="center">
@@ -35,9 +35,21 @@ p = devtools::source_url(path) ; p
 
 <p align="center">
 <img src="/Histogram/Histogram4.png" alt="Drawing"/>
+</p>
 
+<p align="center">
 Figura 2. Histograma: omissão de <i>labels</i>.
 </p>
+
+
+
+
+# 2. Comparativo
+
+### 2.1 Quebras defindidas automaticamente
+
+
+### 2.2 Quebras defindidas manualmente
 
 
 </br>
