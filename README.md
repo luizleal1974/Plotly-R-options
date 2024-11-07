@@ -335,6 +335,12 @@ p
 <div align="center">Figura 11. Formatação de data.</div>
 
 
+</br>
+
+
+# 10. Histograma
+
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/Histogram/Histogram.md'><code>Formatar_data.R</code></a> contém algumas sugestões de códigos de programação em R para construção de histogramas.</p>
 
 
 
