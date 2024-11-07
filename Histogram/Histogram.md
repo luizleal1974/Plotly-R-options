@@ -13,7 +13,7 @@ p = devtools::source_url(path) ; p
 ```
 
 <p align="center">
-<img src="/Histogram/Histogram.png" alt="Drawing" width="500" height="600"/>
+<img src="/Histogram/Histogram.png" alt="Drawing" width="500" height="400"/>
 </p>
 
 <p align="center">
