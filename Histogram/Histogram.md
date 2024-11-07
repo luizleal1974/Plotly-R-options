@@ -32,6 +32,7 @@ p = devtools::source_url(path) ; p
 
 <p align="center">
 <img src="/Histogram/Histogram4.png" alt="Drawing"/>
+
 Figura 2. Histograma: omissão de <i>labels</i>.
 </p>
 
