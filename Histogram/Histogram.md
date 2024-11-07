@@ -14,6 +14,9 @@ p = devtools::source_url(path) ; p
 
 <p align="center">
 <img src="/Histogram/Histogram.png" alt="Drawing"/>
+</p>
+
+<p align="center">
 Figura 1. Histograma: quebras defindidas automaticamente.
 </p>
 
