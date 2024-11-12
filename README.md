@@ -351,7 +351,6 @@ Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href=
 </p>
 
 
-
 </br>
 
 </br>
