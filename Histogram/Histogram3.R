@@ -14,8 +14,7 @@ dados = data.frame(Valores = c(59, 59, 55, 35, 38, 36, 44, 38, 37, 54, 36, 55, 3
 x = dados$Valores
 
 # === QUEBRAS DEFINIDAS MANUALMENTE === #
-# Set number of breaks
-quebras = seq(from = 10, to = 80, by = 10)
+quebras = seq(from = 10, to = 80, by = 10) # Set number of breaks
 if(max(quebras) == max(x)){quebras = c(quebras, max(x) + unique(diff(quebras)))} else {quebras = quebras}
 
 # Rotulo
