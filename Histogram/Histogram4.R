@@ -14,7 +14,6 @@ dados = data.frame(Valores = c(0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 7, 8, 9))
 x = dados$Valores
 
 # === QUEBRAS DEFINIDAS AUTOMATICAMENTE === #
-# The default binning in Plotly for R uses a Freedman-Diaconis rule for choosing bin widths.
 quebras = hist(x, breaks = "FD", plot = FALSE)$breaks
 if(max(quebras) == max(x)){quebras = c(quebras, max(x) + unique(diff(quebras)))} else {quebras = quebras}
 
