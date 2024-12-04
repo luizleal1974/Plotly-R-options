@@ -353,4 +353,19 @@ Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href=
 
 </br>
 
+
+# 11. Densidade Kernel
+
+<p align="justify">Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Densidade_Kernel.R'><code>Densidade_Kernel.R</code></a> para construir a densidade Kernel (Figura 13).</p>
+
+<p align="center">
+<img src="/R codes/Densidade_Kernel.png" alt="Drawing"/>
+</p>
+
+<p align="center">
+Figura 13. Densidade Kernel.
+</p>
+
+</br>
+
 </br>
