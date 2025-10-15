@@ -371,9 +371,9 @@ Figura 13. Densidade Kernel.
 </br>
 
 
-# 12. Border around plot
+# 12. <i>Border around plot</i>
 
-<p align="justify">Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Densidade_Kernel.R'><code>Border_around_plot.R</code></a> para construir bordas ao redor do gráfico (Figura 14).</p>
+<p align="justify">Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Border_around_plot.R'><code>Border_around_plot.R</code></a> para construir bordas ao redor do gráfico (Figura 14).</p>
 
 
 ```{r}
@@ -388,7 +388,7 @@ p
 </p>
 
 <p align="center">
-Figura 14. Border around plot.
+Figura 14. <i>Border around plot</i>.
 </p>
 
 </br>
