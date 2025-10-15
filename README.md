@@ -366,6 +366,31 @@ Figura 12. Histograma: acesse <a target='_blank' rel='noopener noreferrer' href=
 Figura 13. Densidade Kernel.
 </p>
 
+
+
+</br>
+
+
+# 12. Border around plot
+
+<p align="justify">Acesse o arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Plotly-R-options/blob/main/R%20codes/Densidade_Kernel.R'><code>Border_around_plot.R</code></a> para construir bordas ao redor do gráfico (Figura 14).</p>
+
+
+```{r}
+# Border around plot
+path = "https://github.com/luizleal1974/Plotly-R-options/raw/main/R%20codes/Border_around_plot.R"
+p = devtools::source_url(path)
+p
+```
+
+<p align="center">
+<img src="/R codes/Border_around_plot.png" alt="Drawing"/>
+</p>
+
+<p align="center">
+Figura 14. Border around plot.
+</p>
+
 </br>
 
 </br>
