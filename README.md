@@ -384,7 +384,7 @@ p
 ```
 
 <p align="center">
-<img src="/R codes/Border_around_plot.png" alt="Drawing"/>
+<img src="/R codes/Border_around_plot.png" alt="Drawing" width="380" height="330"/>
 </p>
 
 <p align="center">
